@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">HierarchyChat</string>
+
+    <!-- login.xml -->
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="login_button">Log In</string>
+    <string name="register_button">Register</string>
+
+    <!-- fragment_chat_list.xml -->
+    <string name="send_button">Send</string>
+
+    <!-- Common Messages -->
+    <string name="invalid_input">Invalid Input!</string>
+    <string name="firebase_error">Invalid Firebase Reference!</string>
+
+    <!-- LoginActivity.java -->
+    <string name="login_succeeded">Login Succeeded!</string>
+    <string name="login_failed">Login Failed! Please Try Again!</string>
+    <string name="register_succeeded">Registration Succeeded!</string>
+    <string name="register_failed">Registration Failed!</string>
+    <string name="username_not_available">Username is not available!</string>
+
+    <!-- group_chat_menu.xml -->
+    <string name="empty"></string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- group_item.xml -->
+    <string name="subgroups_title">Sub Groups</string>
+    <string name="new_subgroups_hint">Enter New Sub Groups Name</string>
+    <string name="create_subgroups_button">Create Sub Group</string>
+
+    <!-- group_list_request_dialog.xml -->
+    <string name="permission_denied">Permission Denied! Would you like to request for permission to enter this group?</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="request_sent">Request Sent Successfully!</string>
+
+    <!-- request_item.xml -->
+    <string name="accept_button">Accept</string>
+    <string name="decline_button">Decline</string>
+
+    <!-- fragment_request_list.xml -->
+    <string name="pending_requests_title">Pending Requests</string>
+
+    <!-- RequestAdapter.java -->
+    <string name="accept_succeed">Accept Successfully!</string>
+    <string name="decline_succeed">Decline Successfully!</string>
+
+</resources>

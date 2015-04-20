@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="zt.dev.hierarchychat.GroupListFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/chat_item_user_background"
+            android:orientation="vertical">
+
+            <TextView
+                style="@android:style/TextAppearance.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/subgroups_title" />
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@null"
+                android:dividerHeight="0dp"/>
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/chat_item_user_background"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/new_subgroup_name_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="4dp"
+                android:hint="@string/new_subgroups_hint" />
+
+            <Button
+                android:id="@+id/new_subgroup_name_button"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="@string/create_subgroups_button" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
